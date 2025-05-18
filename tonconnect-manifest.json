@@ -1,5 +1,23 @@
 {
   "url": "https://github.com/tg-dex-swap-bot",
   "name": "DEX Swap Bot",
-  "iconUrl": "https://raw.githubusercontent.com/ton-connect/sdk/refs/heads/main/assets/ton-icon-48.png"
+  "iconUrl": "https://raw.githubusercontent.com/ton-connect/sdk/refs/heads/main/assets/ton-icon-48.png",
+  "bridge": {
+    "type": "sse",
+    "url": "https://bridge.tonapi.io/bridge"
+  },
+  "wallets": [
+    {
+      "name": "Tonkeeper",
+      "bridgeUrl": "https://bridge.tonapi.io",
+      "platforms": ["android", "ios"],
+      "universalLink": "https://app.tonkeeper.com/ton-connect"
+    },
+    {
+      "name": "TON Wallet",
+      "bridgeUrl": "https://bridge.ton.org",
+      "platforms": ["android", "ios"],
+      "universalLink": "https://tonhub.com/ton-connect"
+    }
+  ]
 }
