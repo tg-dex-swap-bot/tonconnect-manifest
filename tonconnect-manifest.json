@@ -1,7 +1,7 @@
 {
   "url": "https://github.com/tg-dex-swap-bot",
-  "name": "Dev Week DEX Swap Bot",
-  "iconUrl": "https://raw.githubusercontent.com/tg-dex-swap-bot/tonconnect-manifest/refs/heads/main/dexswapbot.png",
+  "name": "PUNKSWAP",
+  "iconUrl": "https://raw.githubusercontent.com/tg-dex-swap-bot/tonconnect-manifest/refs/heads/main/punkswap.jpg",
   "bridge": {
     "type": "sse",
     "url": "https://bridge.tonapi.io/bridge"
